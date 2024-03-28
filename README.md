@@ -8,6 +8,10 @@
   chmod u+x setup.sh
   ./setup.sh
   ```
+* a
+  ```bash
+  wget https://raw.githubusercontent.com/cs-giung/tpu-setup/main/.zshrc -O ~/.zshrc
+  ```
 
 * a
   ```bash
