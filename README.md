@@ -4,6 +4,13 @@
 
 * a
   ```bash
+  wget https://raw.githubusercontent.com/cs-giung/tpu-setup/main/setup.sh
+  chmod u+x setup.sh
+  ./setup.sh
+  ```
+
+* a
+  ```bash
   python3.10 -m venv .venv
   source .venv/bin/activate
   ```
