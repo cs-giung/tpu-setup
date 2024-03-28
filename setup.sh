@@ -28,6 +28,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git   $OH_MY_ZSH/cu
 # Install Neovim
 sudo apt-get install ninja-build gettext cmake unzip curl build-essential
 git clone https://github.com/neovim/neovim
-cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install
 
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
