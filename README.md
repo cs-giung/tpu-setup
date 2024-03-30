@@ -8,12 +8,12 @@
   chmod u+x setup.sh
   ./setup.sh
   ```
-* a
+* https://github.com/romkatv/powerlevel10k
   ```bash
   wget https://raw.githubusercontent.com/cs-giung/tpu-setup/main/.zshrc -O ~/.zshrc
   ```
 
-* a
+* https://virtualenv.pypa.io/en/latest/
   ```bash
   python3.10 -m venv .venv
   source .venv/bin/activate
