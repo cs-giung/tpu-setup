@@ -26,7 +26,7 @@ git clone https://github.com/zsh-users/zsh-completions             $OH_MY_ZSH/cu
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git   $OH_MY_ZSH/custom/themes/powerlevel10k
 
 # Install Neovim
-sudo apt-get install ninja-build gettext cmake unzip curl build-essential
+sudo apt-get install ninja-build gettext cmake unzip curl build-essential -y -qq
 git clone https://github.com/neovim/neovim
 cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install
 
