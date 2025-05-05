@@ -1,7 +1,23 @@
 # TPU VM Initial Setup Script
 
-This is my peronal script for setting up a TPU VM.
+This is my personal script for setting up a TPU VM.
 Special thanks to the following people for their materials: [@ayaka14732](https://github.com/ayaka14732), [@yuneg11](https://github.com/yuneg11).
+
+```
+pip install tpux
+export PATH="$HOME/.local/bin:$PATH"
+tpux
+
+export OH_MY_ZSH="/home/giung/.oh-my-zsh"
+git clone https://github.com/zsh-users/zsh-autosuggestions         $OH_MY_ZSH/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $OH_MY_ZSH/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions             $OH_MY_ZSH/custom/plugins/zsh-completions
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git   $OH_MY_ZSH/custom/themes/powerlevel10k
+
+wget https://raw.githubusercontent.com/cs-giung/tpu-setup/main/.zshrc -O ~/.zshrc
+```
+
+---
 
 ```bash
 wget https://raw.githubusercontent.com/cs-giung/tpu-setup/main/setup.sh
